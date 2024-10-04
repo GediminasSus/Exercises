@@ -1,4 +1,5 @@
-package Challanges;
+package challanges;
+
 public class Challange2 {
     public static void main(String[] args) {
         double a = 20.00d; double b = 80.00d;

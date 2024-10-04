@@ -1,4 +1,5 @@
-package Challanges;
+package challanges;
+
 public class Challange1 {
     
     public static void main(String[] args) {

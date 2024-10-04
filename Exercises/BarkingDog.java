@@ -1,4 +1,4 @@
-package Exercises;
+package exercises;
 
 public class BarkingDog {
     public static void main(String[] args) {

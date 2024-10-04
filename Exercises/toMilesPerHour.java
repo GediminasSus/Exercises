@@ -1,6 +1,6 @@
-package Exercises;
+package exercises;
 
-public class toMilesPerHour {
+public class ToMilesPerHour {
     public static void main(String[] args) {
 
         printConversion(95.75);
@@ -12,7 +12,7 @@ public class toMilesPerHour {
         
     }
     
-    public static long toMilesPerHour(double kilometersPerHour) {
+    public static long milesPerHour(double kilometersPerHour) {
         
         if (kilometersPerHour < 0) {
             return -1;
@@ -23,12 +23,12 @@ public class toMilesPerHour {
     }
 
     public static void printConversion(double kilometersPerHour) {
-        toMilesPerHour(kilometersPerHour);
+        milesPerHour(kilometersPerHour);
         if (kilometersPerHour < 0) {
             System.out.println("Invalid Value");
         }
         else {
-            System.out.println(kilometersPerHour + " km/h = " + toMilesPerHour(kilometersPerHour) + " mi/h" );
+            System.out.println(kilometersPerHour + " km/h = " + milesPerHour(kilometersPerHour) + " mi/h" );
         }
     }
 }
