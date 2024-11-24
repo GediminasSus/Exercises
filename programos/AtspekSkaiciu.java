@@ -27,7 +27,7 @@ public class AtspekSkaiciu {
             if (guess < randomNumber) { // jeigu spejimas mazesnis uz sugeneruota atsitiktini skaiciu
                 System.out.println("Jusu spejamas skaicius yra mazesnis, bandykite dar karta");
             } else if (guess > randomNumber) {
-                System.out.println("Jusu spejams skaicius yra didesnis, bandykite dar karta");
+                System.out.println("Jusu spejamas skaicius yra didesnis, bandykite dar karta");
             } else {
                 System.out.println("Sveikiname! Jus atspejote! Jums prireike " + attempts + " bandymu");
             }
